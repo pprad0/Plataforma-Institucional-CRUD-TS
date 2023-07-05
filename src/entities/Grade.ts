@@ -17,6 +17,4 @@ export class Grade {
 
     @OneToMany(() => Student, student => student.grades)
     student: Student
-
-
 }
